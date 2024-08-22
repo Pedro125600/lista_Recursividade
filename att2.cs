@@ -20,19 +20,19 @@
 
         static int SomaSerie(int i, int j, int k)
         {
-            int IJ = 0;
+            
             if (i > j) 
             {
-             return   IJ = i + j + SomaSerie(i - 1, j + 1, k);
+             return i + j + SomaSerie(i - 1, j + 1, k);
             }
 
             else if (j > i)
             {
-              return  IJ = i + j+ SomaSerie(i + 1, j - 1, k);
+              return i + j+ SomaSerie(i + 1, j - 1, k);
             }
             else 
             {
-                return IJ + K;
+                return K;
             }
 
             
