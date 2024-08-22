@@ -22,12 +22,12 @@
         {
             if (i > j) 
             {
-                return k + SomaSerie(i - 1, j, k);
+                return k + SomaSerie(i - 1, j + 1, k);
             }
 
             else if (j > i)
             {
-                return k + SomaSerie(i + 1, j, k);
+                return k + SomaSerie(i + 1, j - 1, k);
             }
             else 
             {
