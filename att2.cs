@@ -23,16 +23,13 @@
             
             if (i > j) 
             {
-             return i + j + SomaSerie(i - 1, j + 1, k);
+             return 0;
             }
 
-            else if (j > i)
-            {
-              return i + j+ SomaSerie(i + 1, j - 1, k);
-            }
+        
             else 
             {
-                return K;
+                return i +  SomaSerie(i + k, j, k);
             }
 
             
