@@ -7,10 +7,10 @@
             Console.WriteLine("Digite o valor de i:");
             int i = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite o valor de i:");
+            Console.WriteLine("Digite o valor de j:");
             int j = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite o valor de i:");
+            Console.WriteLine("Digite o valor de k:");
             int k = int.Parse(Console.ReadLine());
 
             int soma = SomaSerie(i, j, k);
